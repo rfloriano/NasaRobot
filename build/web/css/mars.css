@@ -1,0 +1,277 @@
+/*
+The MIT License
+
+Copyright 2015 rafaelsilva.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+/*
+    Created on : Oct 18, 2015, 10:12:58 PM
+    Author     : rafaelsilva
+*/
+/* line 33, ../scss/mars.scss */
+.robot {
+  background-color: #ccc;
+  border-top: 2px solid #000;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  -moz-transition: -moz-transform 1s, left 1s, right 1s;
+  -o-transition: -o-transform 1s, left 1s, right 1s;
+  -webkit-transition: -webkit-transform 1s, left 1s, right 1s;
+  transition: transform 1s, left 1s, right 1s;
+}
+
+/* line 42, ../scss/mars.scss */
+.map {
+  position: relative;
+  background-color: #777;
+}
+
+/* line 47, ../scss/mars.scss */
+.robot-c-n {
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+
+/* line 51, ../scss/mars.scss */
+.robot-c-e {
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 55, ../scss/mars.scss */
+.robot-c-s {
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 59, ../scss/mars.scss */
+.robot-c-w {
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-0 {
+  left: 0px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-0 {
+  bottom: 0px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-0 {
+  width: 0px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-0 {
+  height: 0px;
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-1 {
+  left: 10px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-1 {
+  bottom: 10px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-1 {
+  width: 10px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-1 {
+  height: 10px;
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-2 {
+  left: 20px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-2 {
+  bottom: 20px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-2 {
+  width: 20px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-2 {
+  height: 20px;
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-3 {
+  left: 30px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-3 {
+  bottom: 30px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-3 {
+  width: 30px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-3 {
+  height: 30px;
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-4 {
+  left: 40px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-4 {
+  bottom: 40px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-4 {
+  width: 40px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-4 {
+  height: 40px;
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-5 {
+  left: 50px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-5 {
+  bottom: 50px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-5 {
+  width: 50px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-5 {
+  height: 50px;
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-6 {
+  left: 60px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-6 {
+  bottom: 60px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-6 {
+  width: 60px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-6 {
+  height: 60px;
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-7 {
+  left: 70px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-7 {
+  bottom: 70px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-7 {
+  width: 70px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-7 {
+  height: 70px;
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-8 {
+  left: 80px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-8 {
+  bottom: 80px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-8 {
+  width: 80px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-8 {
+  height: 80px;
+}
+
+/* line 64, ../scss/mars.scss */
+.robot-l-9 {
+  left: 90px;
+}
+
+/* line 68, ../scss/mars.scss */
+.robot-b-9 {
+  bottom: 90px;
+}
+
+/* line 72, ../scss/mars.scss */
+.map-w-9 {
+  width: 90px;
+}
+
+/* line 76, ../scss/mars.scss */
+.map-h-9 {
+  height: 90px;
+}
