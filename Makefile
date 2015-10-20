@@ -6,3 +6,12 @@ setup-ruby:
 
 watch:
 	@compass watch
+
+build:
+	@mvn clean install
+
+sonar:
+	@mvn sonar:sonar
+
+test:
+	@mvn test
